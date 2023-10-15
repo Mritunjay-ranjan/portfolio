@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="portfolio">
+      <header className="portfolio-header">
+        <h1>Ranjan Kumar Mritunjay Ravi</h1>
+        <p>Reg. no: 21BCE3360</p>
       </header>
+
+      <section className="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>10th Grade:</strong> 91% from Sacred Heart Convent High School
+          </li>
+          <li>
+            <strong>12th Grade:</strong> 92% from Sacred Heart Convent High School
+          </li>
+          <li>
+            <strong>BTech in CSE Core:</strong> CGPA 8.30 from VIT Vellore
+          </li>
+        </ul>
+      </section>
+
+      <section className="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Data Structures and Algorithms (DSA)</li>
+          <li>MERN Full Stack Development</li>
+          <li>Java Full Stack Development</li>
+        </ul>
+      </section>
     </div>
   );
 }
